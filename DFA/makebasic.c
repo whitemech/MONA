@@ -24,8 +24,8 @@
 #include "dfa.h"
 #include "../BDD/bdd_internal.h"
 
-#define MAX_EXCEPTION 20000
-#define MAX_VARIABLES 40
+#define MAX_EXCEPTION 2000000
+#define MAX_VARIABLES 100
 /* #warning INTERNAL LIMITS */
 
 struct path_descr {
