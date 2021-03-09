@@ -21,6 +21,12 @@
 %a 40235 /* size of transitions accepted */
 %o 6000  /* size of output slots accepted */
 
+%{
+#undef YYLMAX
+#define YYLMAX 8388608
+%}
+
+
 %option nounput
 %option never-interactive
 
